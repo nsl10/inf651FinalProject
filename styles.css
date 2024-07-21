@@ -1,0 +1,247 @@
+/*general styles*/
+* {
+    box-sizing: border-box;
+    color: #777;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+a.Tabs{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+button {
+    color: white;
+    background-color: #56CCF2;
+    max-width: 19%
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #2D9CDB
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+.title-large {
+    font-size: 8em;
+}
+.content-section {
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    text-align: center;
+}
+/*shop styles*/
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+    text-align: left;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*cart styles*/
+.cart-header {
+    color: #333;
+}
+cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+    text-align: left;
+}
+
+.cart-item {
+    display: flex;
+    width: 45%;
+}
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+.cart-quantity {
+    width: 35%;
+}
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+/*hides paragraph section*/
+.hide{
+    display: none;
+}
+/*bid styles*/
+.bid-item {
+    margin: 30px;
+}
+
+.bid-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+.bid-item-image {
+    height: 250px;
+}
+
+.bid-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.bid-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+.bid-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bid-item-header {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.bid-item-intro {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.bid-input {
+    height: 34px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: left;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.about-image {
+    align-items: center;
+    height: 350px;
+    width: 100%;
+}
+.contact-us-image {
+    align-items: center;
+    height: 350px;
+    width: 60%;
+}

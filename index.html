@@ -1,0 +1,161 @@
+<html>
+    <head>
+        <title>Art Wars | Store</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="store.js" async></script>
+        <script src="links.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 class="title title-large">Art Wars</h1>
+        </header>
+        <section class="container content-section">
+            <div class="row"> 
+                <article class="col-sm-3" ><a class="Tabs" data-para = "BiddingParagraph" id="Bidding" href="#">Bidding</a><br><hr style="width=100%; color=#76b5c5;" class = "container" id="BiddingParagraphLine"></article>
+
+                <article class="col-sm-3" ><a class="Tabs" data-para = "ShoppingParagraph" id="Shopping" href="#">SHOPPING</a><br><hr style="width=100%; color=#76b5c5;" class = "container hide" id="ShoppingParagraphLine"></article>
+
+                <article class="col-sm-3" ><a class="Tabs" data-para = "AboutParagraph" id="About" href="#">About</a><br><hr style="width=100%; color=#76b5c5;"class = "container hide" id="AboutParagraphLine"></article>
+
+                <article class="col-sm-3" ><a class="Tabs" data-para = "ContactUsParagraph" id="ContactUs" href="#">Contact Us</a><br><hr style="width=100%; color=#76b5c5;" class = "container hide" id="ContactUsParagraphLine"></article>
+            </div>
+
+        </section>
+    <div class = "" id="BiddingParagraph">
+            <div class="Bid-items">
+                <div class="Bid-item">
+                    <span class="Bid-item-title">Original Copy of Lights</span>
+                    <div class="Bid-item-header">
+                        <span class="Bid-item-intro">Current Bid:</span>
+                        <span>$</span><span class="Bid-item-current">130</span>
+                    </div>
+                    <img class="Bid-item-image" src="Images/Album 1.jpg">
+                    <div class="Bid-item-details">
+                        <input class="bid-input" type="number" value="140">
+                        <button class="btn btn-primary Bid-item-button" type="button">Bid</button>
+                    </div>
+                </div>
+                <div class="Bid-item">
+                    <span class="Bid-item-title">Original Copy of Rome</span>
+                    <div class="Bid-item-header">
+                        <span class="Bid-item-intro">Current Bid:</span>
+                        <span>$</span><span class="Bid-item-current">150</span>
+                    </div>
+                    <img class="Bid-item-image" src="Images/Album 2.jpg">
+                    <div class="Bid-item-details">
+                        <input class="bid-input" type="number" value="160">
+                        <button class="btn btn-primary Bid-item-button"type="button">Bid</button>
+                    </div>
+                </div>
+                <div class="Bid-item">
+                    <span class="Bid-item-title">Original Copy of Waterfall</span>
+                    <div class="Bid-item-header">
+                        <span class="Bid-item-intro">Current Bid:</span>
+                        <span>$</span><span class="Bid-item-current">100</span>
+                    </div>
+                    <img class="Bid-item-image" src="Images/Album 3.jpg">
+                    <div class="Bid-item-details">
+                        <input class="bid-input" type="number" value="110">
+                        <button class="btn btn-primary Bid-item-button" type="button">Bid</button>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class = "hide" id="ShoppingParagraph">
+        <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Print of Lights</span>
+                    <img class="shop-item-image" src="Images/Album 1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Print of Rome</span>
+                    <img class="shop-item-image" src="Images/Album 2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Print of Waterfall</span>
+                    <img class="shop-item-image" src="Images/Album 3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <div class="cart-item cart-header cart-column">ITEM</div>
+                <div class="cart-price cart-header cart-column">PRICE</div>
+                <div class="cart-quantity cart-header cart-column">QUANTITY</div>
+            </div>
+            
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/Album 2.jpg" width="100" height="100">
+                        <span class="cart-item-title">Print of Rome</span>
+                    </div>
+                    <span class="cart-price cart-column">$14.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/Album 3.jpg" width="100" height="100">
+                        <span class="cart-item-title">Print of Waterfall</span><br>
+                    </div>
+                    <span class="cart-price cart-column">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class="btn btn-danger" type="button">REMOVE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$34.97</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+    </div>
+    <div class = "hide" id="AboutParagraph">
+        <section id="about">
+            <div class="container">
+
+                <header>
+                    <h2>About</h2>
+                </header>
+
+                    <img class ="about-image" src="images/pic08.jpg" alt="" />
+
+                <p>This site is set up to create a bidding atmosphere for different works of art. The site is meant to simulate a user placing bids and buying prints of art! Please play around with placing bids, buying items and adding things to your cart! Values will remain so long as you do not refresh the page!</p>
+
+            </div>
+        </section>
+
+    </div>
+    <div class = "hide" id="ContactUsParagraph">
+        <header>
+            <h2>Contact Us</h2>
+            <img class ="contact-us-image" src="images/emailmessage.jpg" alt="" />
+            <h3>Feel free to reach out here!</h3>
+            <h5>Name: Nate</h5>
+            <h5>email: example@email.com</h5>
+            <h5>Phone Number: 111-111-1111</h5>
+
+        </header>
+    </div>
+        <footer class="main-footer">
+        </footer>
+    </body>
